@@ -61,7 +61,7 @@ input[type=text] {
     border: 2px solid black;
     border-radius: 30px;
     background-color: white;
-    background-image: url('search.svg'), url('close.svg');
+    background-image: url('icons/search.svg'), url('icons/close.svg');
     background-position: 10px, calc(100% - 10px);
     background-repeat: no-repeat, no-repeat;
 }
@@ -69,7 +69,7 @@ input[type=text] {
 .header {
     position: relative;
     display: flex;
-    margin: 70px 0px 0px 70px;
+    margin: 70px 70px 0px 70px;
     line-height: 100px;
     font-weight: bold;
     font-size: 100px;
@@ -102,26 +102,35 @@ input[type=text] {
 
 .tagline {
     color: black;
-    margin: 125px 0px 0px 70px;
+    margin: 125px 70px 0px 70px;
     font-size: 18px;
+}
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .scroll {
     color: #BF8F78;
     font-size: 18px;
-    margin: 300px 0px 0px 70px;
-}
-
-.arrow {
-    margin-left: 250px;
-    margin-top: -25px;
+    margin: 0px 70px 0px;
 }
 
 .mms {
+    display: flex;
+    justify-content: right;
+    margin: 0px 70px 0px;
     font-size: 200px;
     font-weight: bold;
     -webkit-text-stroke: 2px #ddd;
     color: rgba(255, 255, 255, 0);
-    margin-left: 1000px;
-    margin-top: -215px;
+    line-height: 200px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
 }
